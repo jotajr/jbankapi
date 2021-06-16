@@ -32,7 +32,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/bankapi/agencia/1",
+					"raw": "http://localhost:8080/bankapi/agencia/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -41,7 +41,7 @@
 					"path": [
 						"bankapi",
 						"agencia",
-						"1"
+						"2"
 					]
 				}
 			},
@@ -78,7 +78,29 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/bankapi/agencia/update/2",
+			"name": "Delete Agencia",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bankapi/agencia/delete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bankapi",
+						"agencia",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Agencia",
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -103,28 +125,6 @@
 						"agencia",
 						"update",
 						"2"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Delete Agencia",
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:8080/bankapi/agencia/delete/1",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"bankapi",
-						"agencia",
-						"delete",
-						"1"
 					]
 				}
 			},
