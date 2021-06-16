@@ -11,7 +11,7 @@ import javax.persistence.Id;
 public class Agencia {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @ApiModelProperty(notes = "Id da agencia", required = true)
     private Long idAgencia;
     @ApiModelProperty(notes = "Nome da agencia", required = true)
